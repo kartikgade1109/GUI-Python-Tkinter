@@ -1,0 +1,10 @@
+from tkinter import *
+win = Tk()
+win.title("kartik")
+win.config(bg="skyblue")
+lab = Label(win, text="kartik", font=("Times New Roman", 30, "bold"), bg="green")
+lab.pack(padx="20",pady="20",side="left")
+lab1 = Label(win, text="Gade", font=("Times New Roman", 30, "bold"), bg="green")
+lab1.pack(padx="20",pady="20",side="left")
+#lab.pack( padx=20, pady=200,ipadx=20,ipady=100,fill="x",expand=True)
+win.mainloop()
